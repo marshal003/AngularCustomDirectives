@@ -1,36 +1,63 @@
 <div class="header">
   <ul class="nav nav-pills pull-right">
     <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
   </ul>
   <h3 class="text-muted">AngularCustomDirectives</h3>
 </div>
-
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!</a></p>
-</div>
-
 <div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
-
+	<h4>Demo for </h4>
+	   <tabs class="hidden">
+          <pane title="Personal Details" name="Step1">
+            <div class="box">
+				<div class="box-header">
+					Personal Details
+				</div>
+      			<div class="box-content">
+					<div class="content-message">
+						Yeppi you have Successfully Completed your Step 1
+					</div>
+				</div>
+				<div class="box-footer">
+              		<button class="continue btn btn-primary">Continue</button>
+            	</div>
+            </div>
+         </pane>
+         <pane title="Site Details" name="Step2">
+			 <div class="box">
+            	<div class="box-header">
+					Professional Details
+				</div>
+      			<div class="box-content">
+					<div class="content-message">
+						Wow you have Successfully Completed your Step 2
+					</div>
+				</div>
+				<div class="box-footer">
+					<button class="btn btn-primary back">Back</button>
+              		<button class="btn btn-primary continue">Continue</button>
+            	</div>
+			</div>
+          </pane>
+          <pane title="Location Detail" name="Step3">
+        	<div class="box">
+            	<div class="box-header">
+					Give Your Location Details
+				</div>
+      			<div class="box-content">
+					<div class="content-message">
+						Congrats you have Successfully Completed your last Step
+					</div>
+				</div>
+				<div class="box-footer">
+					<button class="btn btn-primary back">Back</button>
+					<button class="btn btn-primary finish-wizard">Finsh</button>
+            	</div>
+			</div>
+          </pane>
+        </tabs>
+	
+	
+  </div>
 <div class="footer">
   <p>♥ from the Yeoman team</p>
 </div>
